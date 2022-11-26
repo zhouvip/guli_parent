@@ -20,6 +20,7 @@
         <module>service_cms</module>
         <module>service_cms</module>
         <module>service_zhou</module>
+        <module>service_zhou_activiti</module>
     </modules>
 
     <dependencies>
