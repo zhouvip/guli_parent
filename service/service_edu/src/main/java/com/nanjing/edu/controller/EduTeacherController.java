@@ -7,7 +7,7 @@ import com.nanjing.edu.entity.EduTeacher;
 import com.nanjing.edu.entity.vo.TeacherQuery;
 import com.nanjing.juc.commonutils.R;
 import com.nanjing.edu.service.EduTeacherService;
-import com.nanjing.juc.servicebase.exceptionhandler.GuliException;
+import com.nanjing.servicebase.exceptionhandler.GuliException;
 import io.swagger.annotations.ApiOperation;
 import io.swagger.annotations.ApiParam;
 import org.springframework.beans.factory.annotation.Autowired;
