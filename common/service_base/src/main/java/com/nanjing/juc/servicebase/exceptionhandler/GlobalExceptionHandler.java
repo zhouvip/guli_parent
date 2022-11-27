@@ -1,6 +1,6 @@
 package com.nanjing.juc.servicebase.exceptionhandler;
 
-import com.nanjing.juc.commonutils.R;
+import com.nanjing.commonutils.R;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.web.bind.annotation.ControllerAdvice;
 import org.springframework.web.bind.annotation.ExceptionHandler;

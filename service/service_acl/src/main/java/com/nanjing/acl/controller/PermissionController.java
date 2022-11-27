@@ -3,7 +3,7 @@ package com.nanjing.acl.controller;
 
 import com.nanjing.acl.service.PermissionService;
 import com.nanjing.acl.entity.Permission;
-import com.nanjing.juc.commonutils.R;
+import com.nanjing.commonutils.R;
 import io.swagger.annotations.ApiOperation;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;

@@ -3,7 +3,7 @@ package com.nanjing.cms.controller;
 
 import com.nanjing.cms.service.CrmBannerService;
 import com.nanjing.cms.entity.CrmBanner;
-import com.nanjing.juc.commonutils.R;
+import com.nanjing.commonutils.R;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.GetMapping;

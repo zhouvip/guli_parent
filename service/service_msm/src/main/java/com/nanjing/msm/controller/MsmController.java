@@ -1,6 +1,6 @@
 package com.nanjing.msm.controller;
 
-import com.nanjing.juc.commonutils.R;
+import com.nanjing.commonutils.R;
 import com.nanjing.msm.service.MsmService;
 import com.nanjing.msm.utils.RandomUtil;
 import io.swagger.annotations.Api;

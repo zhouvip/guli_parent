@@ -1,4 +1,4 @@
-package com.nanjing.juc.commonutils;
+package com.nanjing.commonutils;
 
 import java.security.MessageDigest;
 import java.security.NoSuchAlgorithmException;

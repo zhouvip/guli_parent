@@ -2,7 +2,7 @@ package com.nanjing.cms.controller;
 
 
 import com.nanjing.cms.service.CrmBannerService;
-import com.nanjing.juc.commonutils.R;
+import com.nanjing.commonutils.R;
 import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
 import com.nanjing.cms.entity.CrmBanner;
 import io.swagger.annotations.ApiOperation;

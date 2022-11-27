@@ -5,7 +5,7 @@ import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
 import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
 import com.nanjing.edu.entity.EduTeacher;
 import com.nanjing.edu.entity.vo.TeacherQuery;
-import com.nanjing.juc.commonutils.R;
+import com.nanjing.commonutils.R;
 import com.nanjing.edu.service.EduTeacherService;
 import com.nanjing.juc.servicebase.exceptionhandler.GuliException;
 import io.swagger.annotations.ApiOperation;

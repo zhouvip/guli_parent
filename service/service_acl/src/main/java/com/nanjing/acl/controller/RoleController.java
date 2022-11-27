@@ -3,7 +3,7 @@ package com.nanjing.acl.controller;
 
 import com.nanjing.acl.entity.Role;
 import com.nanjing.acl.service.RoleService;
-import com.nanjing.juc.commonutils.R;
+import com.nanjing.commonutils.R;
 import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
 import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
 import io.swagger.annotations.ApiOperation;

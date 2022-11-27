@@ -1,7 +1,7 @@
 package com.nanjing.acl.controller;
 
 import com.nanjing.acl.service.IndexService;
-import com.nanjing.juc.commonutils.R;
+import com.nanjing.commonutils.R;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;

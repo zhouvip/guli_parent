@@ -1,7 +1,7 @@
 package com.nanjing.serurity.security;
 
-import com.nanjing.juc.commonutils.R;
-import com.nanjing.juc.commonutils.ResponseUtil;
+import com.nanjing.commonutils.R;
+import com.nanjing.commonutils.ResponseUtil;
 import org.springframework.security.core.AuthenticationException;
 import org.springframework.security.web.AuthenticationEntryPoint;
 

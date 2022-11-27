@@ -1,7 +1,7 @@
 package com.nanjing.serurity.filter;
 
-import com.nanjing.juc.commonutils.R;
-import com.nanjing.juc.commonutils.ResponseUtil;
+import com.nanjing.commonutils.R;
+import com.nanjing.commonutils.ResponseUtil;
 import com.nanjing.serurity.security.TokenManager;
 import org.springframework.data.redis.core.RedisTemplate;
 import org.springframework.security.authentication.AuthenticationManager;

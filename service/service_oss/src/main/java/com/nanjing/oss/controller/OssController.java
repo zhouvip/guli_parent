@@ -1,6 +1,6 @@
 package com.nanjing.oss.controller;
 
-import com.nanjing.juc.commonutils.R;
+import com.nanjing.commonutils.R;
 import com.nanjing.oss.service.OssService;
 import io.swagger.annotations.ApiOperation;
 import io.swagger.annotations.ApiParam;

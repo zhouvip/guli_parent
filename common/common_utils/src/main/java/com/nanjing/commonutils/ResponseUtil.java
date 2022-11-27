@@ -1,4 +1,4 @@
-package com.nanjing.juc.commonutils;
+package com.nanjing.commonutils;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 import org.springframework.http.HttpStatus;

@@ -1,6 +1,6 @@
 package com.nanjing.serurity.security;
 
-import com.nanjing.juc.commonutils.MD5;
+import com.nanjing.commonutils.MD5;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Component;
 
