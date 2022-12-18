@@ -26,7 +26,7 @@ public class TestVariables {
 //        3、使用service进行流程的部署，定义一个流程的名字，把bpmn和png部署到数据中
         Deployment deploy = repositoryService.createDeployment()
                 .name("员工请假-variables")
-                .addClasspathResource("leave3.bpmn20.xml")
+                .addClasspathResource("leave8.bpmn20.xml")
                 .deploy();
 //        4、输出部署信息
         System.out.println("流程部署id="+deploy.getId());
@@ -45,19 +45,19 @@ public class TestVariables {
 //        获取RunTimeService
         RuntimeService runtimeService = processEngine.getRuntimeService();
 //        流程定义的Key
-        String key = "myEvection3";
+        String key = "myEvection8";
 //        流程变量的map
         Map<String,Object> variables = new HashMap<>();
 //        设置流程变量
         Evection evection = new Evection();
 //        设置出差日期（请假天数）
-        evection.setNum(2d);
+        evection.setNum(3d);
 //        把流程变量的pojo放入map
         variables.put("evection",evection);
 //        设定任务的负责人
         variables.put("assignee0","李四");
         variables.put("assignee1","王经理");
-        //variables.put("assignee2","杨总经理");
+        variables.put("assignee2","杨总经理");
 //        启动流程
         runtimeService.startProcessInstanceByKey(key,variables);
     }
@@ -65,7 +65,7 @@ public class TestVariables {
     @Test
     public void queryTask(){
 //        流程定义的Key
-        String key = "myEvection3";
+        String key = "myEvection8";
 //        任务负责人
         String assingee = "李四";
 
@@ -93,9 +93,9 @@ public class TestVariables {
     @Test
     public void completTask(){
 //        流程定义的Key
-        String key = "myEvection2";
+        String key = "myEvection8";
 //        任务负责人
-        String assingee = "王经理";
+        String assingee = "杨总经理";
 
 //        String assingee = "张财务";
         //        获取流程引擎
