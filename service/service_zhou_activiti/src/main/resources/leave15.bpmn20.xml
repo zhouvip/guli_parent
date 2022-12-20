@@ -8,7 +8,7 @@
     <sequenceFlow id="sid-d9133c84-2648-4fc7-b6b4-9b5e83dcbcc8" sourceRef="sid-a9007ade-0824-4f64-9cde-8167bf74879c" targetRef="sid-55d21af5-a3f2-4a8f-9428-8356136119df">
       <conditionExpression>${evection.num&lt;3}</conditionExpression>
     </sequenceFlow>
-    <sequenceFlow id="sid-53626aa5-c1d2-47cb-9591-64c99b5542d5" sourceRef="sid-a9007ade-0824-4f64-9cde-8167bf74879c" targetRef="sid-bd020d7c-97dc-48ce-bf39-4eba2f5dbfe4">
+    <sequenceFlow id="sid-53626aa5-c1d2-47cb-9591-64c99b5542d5" sourceRef="myEvection15" targetRef="sid-bd020d7c-97dc-48ce-bf39-4eba2f5dbfe4">
       <conditionExpression xsi:type="tFormalExpression">${evection.num&gt;=3}</conditionExpression>
     </sequenceFlow>
     <startEvent id="sid-1afd7623-e95b-4554-aaa5-752da68b1b74"/>
@@ -76,7 +76,6 @@
       <bpmndi:BPMNEdge id="edge-65561473-bdcf-4ac7-a549-fa57fd5ae0a9" bpmnElement="sid-de6ac650-7a18-469f-bdf4-a7f134d1c82a">
         <omgdi:waypoint x="130.0" y="-155.0"/>
         <omgdi:waypoint x="220.0" y="-155.0"/>
-        <omgdi:waypoint x="220.0" y="-105.0"/>
         <omgdi:waypoint x="219.99998" y="-40.0"/>
       </bpmndi:BPMNEdge>
       <bpmndi:BPMNShape id="shape-6b777a93-b617-4b47-9c72-e8b7c5bfb5d6" bpmnElement="sid-77acc0a9-19ee-459a-8619-381136727d62">

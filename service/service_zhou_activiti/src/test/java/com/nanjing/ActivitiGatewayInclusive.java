@@ -69,7 +69,7 @@ public class ActivitiGatewayInclusive {
 //        流程定义的Key
         String key = "myEvection15";
 //        任务负责人
-        String assingee = "jack";
+        String assingee = "周总经理";
         //        获取流程引擎
         ProcessEngine processEngine = ProcessEngines.getDefaultProcessEngine();
 //        获取taskservice
