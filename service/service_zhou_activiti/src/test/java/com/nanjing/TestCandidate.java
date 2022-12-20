@@ -1,11 +1,15 @@
 package com.nanjing;
 
+import com.nanjing.pojo.Evection;
 import org.activiti.engine.*;
 import org.activiti.engine.repository.Deployment;
+import org.activiti.engine.runtime.ProcessInstance;
 import org.activiti.engine.task.Task;
 import org.junit.Test;
 
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 
 
 /**
@@ -24,7 +28,7 @@ public class TestCandidate {
 //        3、使用service进行流程的部署，定义一个流程的名字，把bpmn和png部署到数据中
         Deployment deploy = repositoryService.createDeployment()
                 .name("出差申请流程-Candidate")
-                .addClasspathResource("leave17.bpmn20.xml")
+                .addClasspathResource("leave18.bpmn20.xml")
                 .deploy();
 //        4、输出部署信息
         System.out.println("流程部署id="+deploy.getId());
@@ -41,9 +45,20 @@ public class TestCandidate {
 //        获取RunTimeService
         RuntimeService runtimeService = processEngine.getRuntimeService();
 //        流程定义的Key
-        String key = "myEvection16";
+        String key = "myEvection18";
 //        启动流程
-        runtimeService.startProcessInstanceByKey(key);
+        //runtimeService.startProcessInstanceByKey(key);
+
+//       创建变量集合
+        Map<String, Object> map = new HashMap<>();
+//        创建出差pojo对象
+        Evection evection = new Evection();
+//      定义流程变量，把出差pojo对象放入map
+        map.put("evection",evection);
+        map.put("assignee0","张三");
+//        启动流程实例，并设置流程变量的值（把map传入）
+        ProcessInstance processInstance = runtimeService
+                .startProcessInstanceByKey(key, map);
     }
 
     /**
@@ -52,7 +67,7 @@ public class TestCandidate {
     @Test
     public void findGroupTaskList(){
         //        流程定义的Key
-        String key = "myEvection16";
+        String key = "myEvection18";
 //        任务候选人
         String candidateUser = "wangwu";
 //        获取引擎
@@ -82,7 +97,7 @@ public class TestCandidate {
 //        获取TaskService
         TaskService taskService = processEngine.getTaskService();
 //        当前任务的id
-        String taskId = "185005";
+        String taskId = "190005";
 //        任务候选人
         String candidateUser = "wangwu";
 //        查询任务
@@ -155,7 +170,7 @@ public class TestCandidate {
     @Test
     public void completTask(){
 //        流程定义的Key
-        String key = "myEvection16";
+        String key = "myEvection18";
 //        任务负责人
         String assingee = "张三";
 //        String assingee = "";
@@ -178,7 +193,7 @@ public class TestCandidate {
     @Test
     public void queryTask(){
 //        流程定义的Key
-        String key = "myEvection16";
+        String key = "myEvection18";
 //        任务负责人
 
         //String assingee = "张财务";
