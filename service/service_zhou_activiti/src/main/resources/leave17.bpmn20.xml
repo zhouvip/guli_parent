@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <definitions xmlns="http://www.omg.org/spec/BPMN/20100524/MODEL" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:activiti="http://activiti.org/bpmn" xmlns:bpmndi="http://www.omg.org/spec/BPMN/20100524/DI" xmlns:omgdc="http://www.omg.org/spec/DD/20100524/DC" xmlns:omgdi="http://www.omg.org/spec/DD/20100524/DI" typeLanguage="http://www.w3.org/2001/XMLSchema" expressionLanguage="http://www.w3.org/1999/XPath" targetNamespace="http://www.activiti.org/processdef">
-  <process id="myEvection16" name="员工请假流程16" isExecutable="true">
+  <process id="myEvection17" name="员工请假流程17" isExecutable="true">
     <startEvent id="sid-00226793-722a-4725-853f-e71e69eab6a1"/>
-    <userTask id="sid-e9b2c810-00bf-4b55-941e-ee33bdd9f0db" name="部门经理审批" activiti:assignee="lisi,wangwu"/>
+    <userTask id="sid-e9b2c810-00bf-4b55-941e-ee33bdd9f0db" name="部门经理审批" activiti:candidateUsers="lisi,wangwu"/>
     <sequenceFlow id="sid-6fcfc799-4488-4d38-9ba9-aafe85daa65e" sourceRef="sid-00226793-722a-4725-853f-e71e69eab6a1" targetRef="sid-dafe664c-88e5-4d70-a499-f26e1fd680ca"/>
     <userTask id="sid-bd020d7c-97dc-48ce-bf39-4eba2f5dbfe4" name="总经理审批"/>
     <endEvent id="sid-55d21af5-a3f2-4a8f-9428-8356136119df"/>
@@ -17,7 +17,7 @@
     </sequenceFlow>
   </process>
   <bpmndi:BPMNDiagram id="BPMNDiagram_hello">
-    <bpmndi:BPMNPlane bpmnElement="myEvection16" id="BPMNPlane_hello">
+    <bpmndi:BPMNPlane bpmnElement="myEvection17" id="BPMNPlane_hello">
       <bpmndi:BPMNShape id="shape-e3267270-4433-4d4c-b1f2-988fed0adcc7" bpmnElement="sid-00226793-722a-4725-853f-e71e69eab6a1">
         <omgdc:Bounds x="40.00001" y="-245.0" width="30.0" height="30.0"/>
       </bpmndi:BPMNShape>
