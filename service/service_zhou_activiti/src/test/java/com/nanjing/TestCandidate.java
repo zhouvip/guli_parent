@@ -97,9 +97,9 @@ public class TestCandidate {
 //        获取TaskService
         TaskService taskService = processEngine.getTaskService();
 //        当前任务的id
-        String taskId = "190005";
+        String taskId = "5002";
 //        任务候选人
-        String candidateUser = "wangwu";
+        String candidateUser = "lisi";
 //        查询任务
         Task task = taskService.createTaskQuery()
                 .taskId(taskId)
@@ -122,7 +122,7 @@ public class TestCandidate {
 //        获取TaskService
         TaskService taskService = processEngine.getTaskService();
 //        当前任务的id
-        String taskId = "75002";
+        String taskId = "5002";
 //        任务负责人
         String assignee = "wangwu";
 //        根据key 和负责人来查询任务
@@ -148,11 +148,11 @@ public class TestCandidate {
 //        获取TaskService
         TaskService taskService = processEngine.getTaskService();
 //        当前任务的id
-        String taskId = "75002";
+        String taskId = "5002";
 //        任务负责人
         String assignee = "lisi";
 //        任务候选人
-        String candidateUser = "asdfad";
+        String candidateUser = "wangwu";
 //        根据key 和负责人来查询任务
         Task task = taskService.createTaskQuery()
                 .taskId(taskId)
@@ -172,7 +172,7 @@ public class TestCandidate {
 //        流程定义的Key
         String key = "myEvection18";
 //        任务负责人
-        String assingee = "张三";
+        String assingee = "lisi";
 //        String assingee = "";
         //        获取流程引擎
         ProcessEngine processEngine = ProcessEngines.getDefaultProcessEngine();
