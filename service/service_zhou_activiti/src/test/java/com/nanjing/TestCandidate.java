@@ -56,6 +56,7 @@ public class TestCandidate {
 //      定义流程变量，把出差pojo对象放入map
         map.put("evection",evection);
         map.put("assignee0","张三");
+        map.put("assignee2","周总经理");
 //        启动流程实例，并设置流程变量的值（把map传入）
         ProcessInstance processInstance = runtimeService
                 .startProcessInstanceByKey(key, map);
