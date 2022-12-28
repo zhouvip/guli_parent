@@ -56,7 +56,7 @@ public class SpingBootActivitiDemo {
     @Test
     public void testStartProcess(){
         ProcessInstance processInstance = runtimeService
-                .startProcessInstanceByKey("myLeave");
+                .startProcessInstanceByKey("zhouleave");
 //        输出内容
         System.out.println("流程定义id：" + processInstance.getProcessDefinitionId());
         System.out.println("流程实例id：" + processInstance.getId());
