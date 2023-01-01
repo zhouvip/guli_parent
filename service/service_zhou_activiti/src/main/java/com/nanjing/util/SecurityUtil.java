@@ -1,25 +1,12 @@
 package com.nanjing.util;
 
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.beans.factory.annotation.Qualifier;
-import org.springframework.security.core.Authentication;
-import org.springframework.security.core.GrantedAuthority;
-import org.springframework.security.core.context.SecurityContextHolder;
-import org.springframework.security.core.context.SecurityContextImpl;
-import org.springframework.security.core.userdetails.UserDetails;
-import org.springframework.security.core.userdetails.UserDetailsService;
-import org.springframework.stereotype.Component;
-
-import java.util.Collection;
-
 /**
  * @author ：楼兰
  * @date ：Created in 2021/4/8
  * @description:
  **/
 
+/*
 @Component
 public class SecurityUtil {
     private Logger logger = LoggerFactory.getLogger(SecurityUtil.class);
@@ -69,3 +56,4 @@ public class SecurityUtil {
         org.activiti.engine.impl.identity.Authentication.setAuthenticatedUserId(username);
     }
 }
+*/

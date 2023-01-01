@@ -72,7 +72,7 @@ public class SpingBootActivitiDemo {
         String assignee = "worker";
 //        根据流程key 和 任务负责人 查询任务
         List<Task> list = taskService.createTaskQuery()
-                .processDefinitionKey("myLeave") //流程Key
+                .processDefinitionKey("zhouleave") //流程Key
                 .taskAssignee(assignee)//只查询该任务负责人的任务
                 .list();
 
@@ -175,8 +175,8 @@ public class SpingBootActivitiDemo {
 //        bpmn文件的流
         InputStream bpmnInput = repositoryService.getResourceAsStream(deploymentId, processDefinition.getResourceName());
 //        6、构造OutputStream流
-        File file_png = new File("d:/myLeave.png");
-        File file_bpmn = new File("d:/myLeave.bpmn");
+        File file_png = new File("/Users/zhou/myLeave.png");
+        File file_bpmn = new File("/Users/zhou/myLeave.bpmn");
         FileOutputStream bpmnOut = new FileOutputStream(file_bpmn);
         FileOutputStream pngOut = new FileOutputStream(file_png);
 //        7、输入流，输出流的转换
