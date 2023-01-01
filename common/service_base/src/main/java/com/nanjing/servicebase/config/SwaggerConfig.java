@@ -1,4 +1,4 @@
-package com.nanjing.juc.servicebase.config;
+package com.nanjing.servicebase.config;
 
 import com.google.common.base.Predicates;
 import org.springframework.context.annotation.Bean;

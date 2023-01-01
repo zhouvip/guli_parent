@@ -1,4 +1,4 @@
-package com.nanjing.juc.servicebase.config;
+package com.nanjing.servicebase.config;
 
 import com.fasterxml.jackson.annotation.JsonAutoDetect;
 import com.fasterxml.jackson.annotation.PropertyAccessor;

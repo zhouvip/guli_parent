@@ -1,4 +1,4 @@
-package com.nanjing.juc.servicebase.exceptionhandler;
+package com.nanjing.servicebase.exceptionhandler;
 
 import java.io.IOException;
 import java.io.PrintWriter;

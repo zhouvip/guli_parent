@@ -1,4 +1,4 @@
-package com.nanjing.juc.servicebase.exceptionhandler;
+package com.nanjing.servicebase.exceptionhandler;
 
 import com.nanjing.commonutils.R;
 import lombok.extern.slf4j.Slf4j;

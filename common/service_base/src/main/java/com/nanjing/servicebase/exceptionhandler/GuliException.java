@@ -1,4 +1,4 @@
-package com.nanjing.juc.servicebase.exceptionhandler;
+package com.nanjing.servicebase.exceptionhandler;
 
 import io.swagger.annotations.ApiModelProperty;
 import lombok.AllArgsConstructor;
