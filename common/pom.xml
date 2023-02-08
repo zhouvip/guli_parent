@@ -15,8 +15,6 @@
         <module>service_base</module>
         <module>common_utils</module>
         <module>spring_security</module>
-        <module>spring_security</module>
-        <module>spring_security</module>
     </modules>
 
     <dependencies>
